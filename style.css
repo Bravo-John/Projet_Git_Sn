@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+footer{
+    color:white;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+.other{
+    margin-bottom: 20px;
+}
+.other p{
+    margin: 5px 0;
+}
+.Media{
+    margin-bottom: 10px;
+}
+.Media a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.liens{
+    margin: 20px 0;
+}
+.liens a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.bottom{
+    font-size: 14px;
+}
+.sidebar {
+  transition: transform 0.3s ease;
+  transform: translateX(0);
+  /* Autres styles déjà présents */
+}
+
+.sidebar.active {
+  transform: translateX(-250px); /* cache la sidebar en la décalant à gauche */
+}
+
+#toggleSidebar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
